@@ -13,13 +13,13 @@
     }
 ?>
 <head>
-    <title>MiMi</title>
+    <title>Panel de Administrador</title>
 </head>
 <body>
 <?php
-        //incluye el archivo de "ContenidoInicio"
-        include_once('ContenidoInicio.php');
-    ?>
+    //incluye el archivo de "ContenidoInicio"
+    include_once('ContenidoPanelAdmin.php');
+?>
 <?php
     //incluye el foot para cerrar correctamente la etiqueta "<body>" y "<html>"
     include_once('foot.php');
