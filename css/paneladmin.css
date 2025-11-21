@@ -1,6 +1,7 @@
 .main{
     width: 100%;
-}
+    margin-bottom: 20px;
+}  
 
 .contenido{
     display: flex;
@@ -14,10 +15,24 @@
     text-transform: capitalize;
 }
 
-.nav-admin ul li{
+.nav-admin-menu{
+    width: min-content;
+}
+
+.nav-admin-menu li{
     padding: 20px;
     border: solid 1px black;
 }
 
-.datos-menu{
+.nav-admin-menu li:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+[data-content]{
+    display: none;
+}
+
+.active[data-content]{
+    display: block;
 }

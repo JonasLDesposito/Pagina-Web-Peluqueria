@@ -29,8 +29,7 @@ i{
     align-items: center;
     padding: 20px 0;
     margin-bottom: 20px;
-    border: solid;
-    border-color: black;
+    border: solid black;
 }
 
 .logo{
@@ -64,7 +63,7 @@ i{
 }
 
 .nav-main ul li:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .nav-main .menu-btn{
